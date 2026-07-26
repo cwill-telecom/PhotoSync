@@ -31,7 +31,7 @@ pip install -r requirements.txt
 python receiver.py --token my-secret-token --port 8765
 ```
 
-Photos are saved to `./photos/YYYY/MM/` by default. Use `--dir C:\Users\whate\Pictures\PhoneSync` to change.
+Photos are saved to `./photos/YYYY/MM/` by default. Use `--dir C:\Users\username` to change.
 
 Find your PC's local IP:
 - **Windows:** `ipconfig` — look for the IPv4 address under your Wi-Fi adapter
@@ -41,7 +41,7 @@ Find your PC's local IP:
 
 ### 2. Android — Build and install
 
-Open `C:\Users\whate\Desktop\PhotoSync` in Android Studio (recommended). It handles the Gradle wrapper, SDK download, and builds automatically.
+Open `C:\Users\username\PhotoSync` in Android Studio (recommended). It handles the Gradle wrapper, SDK download, and builds automatically.
 
 Or build from CLI:
 ```bash
