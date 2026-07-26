@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhotoSync</string>
+    <string name="channel_sync">Photo Sync</string>
+    <string name="channel_sync_desc">Shows upload progress and queue status</string>
+    <string name="sync_notification_title">PhotoSync</string>
+    <string name="sync_notification_text">Watching for new photos</string>
+    <string name="uploading_notification_text">Uploading %1$d photo(s)…</string>
+    <string name="settings_server_url">Server URL</string>
+    <string name="settings_server_url_hint">http://192.168.1.100:8765</string>
+    <string name="settings_token">API Token</string>
+    <string name="settings_token_hint">Shared secret</string>
+    <string name="settings_home_ssid">Home Wi-Fi SSID (optional)</string>
+    <string name="settings_home_ssid_hint">MyHomeWiFi</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_saved">Settings saved</string>
+    <string name="status_idle">Idle</string>
+    <string name="status_uploading">Uploading…</string>
+    <string name="status_queue">%1$d queued</string>
+    <string name="status_completed">%1$d completed</string>
+    <string name="status_failed">%1$d failed</string>
+    <string name="permission_rationale">PhotoSync needs photo access to detect and upload new pictures you take.</string>
+</resources>
